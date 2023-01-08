@@ -12,9 +12,11 @@
   --very-dark-blue: hsl(233, 12%, 13%);
   --very-pale-red: hsl(13, 100%, 96%);
   --vary-light-gray: hsl(0, 0%, 98%);
+  --white: #ffffff;
   /* extras */
   --font-size: 62.5%;
   --font-family: "Be Vietnam Pro", sans-serif;
+  --padding-container-mobile: 0 2rem;
 }
 
 html {
@@ -45,3 +47,80 @@ input {
 a {
   text-decoration: none;
 }
+
+/* header */
+
+.header {
+  background-color: var(--white);
+  padding: 5rem 0 0 0;
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top -5rem right -8rem;
+}
+
+.patron__header {
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 3rem right -25rem;
+}
+
+.container {
+  padding: var(--padding-container-mobile);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__header {
+  width: 120px;
+}
+
+.icon__hamburger {
+  width: 25px;
+}
+
+.illustration__intro {
+  padding: 5rem 0 1rem 0;
+  margin: 0 auto;
+}
+
+
+.title__header {
+  font-family: var(--font-family);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--dark-blue);
+}
+
+.copy__header {
+  font-family: var(--font-family);
+  text-align: center;
+  color: var(--dark-grayish-blue);
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.box__button__header {
+  text-align: center;
+  padding-bottom: 12rem;
+}
+
+.button {
+  background-color: var(--bright-red);
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 700;
+  border-radius: 10rem;
+  padding: 1.5rem 3.5rem;
+  font-size: 1.2rem;
+}
+
+/* main  */
