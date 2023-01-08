@@ -126,6 +126,8 @@ a {
   border-radius: 10rem;
   padding: 1.5rem 3.5rem;
   font-size: 1.2rem;
+  box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.67);
+  cursor: pointer;
 }
 
 /* main  */
@@ -173,10 +175,17 @@ a {
 .box__number__trick {
   background-color: var(--bright-red);
   border-radius: 10rem;
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 3rem;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.number {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .subtitle__tricks {
@@ -197,3 +206,70 @@ a {
 .copy__margin--trick {
   margin-bottom: 4rem;
 }
+
+/* tabs */
+
+.subtitle__margin--tabs {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.card__tabs {
+  width: 100%;
+  background-color: var(--vary-light-gray);
+  text-align: center;
+  padding: 2rem;
+}
+
+.avatar {
+  width: 70px;
+  margin: 0 auto;
+  position: relative;
+  top: -5rem;
+}
+
+.subtitle__card__tabs {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+
+.copy__card__tabs {
+  font-family: var(--font-family);
+  font-size: 1.4rem;
+  color: var(--dark-grayish-blue);
+  line-height: 2.5rem;
+}
+
+.box__button__tabs {
+  width: 100%;
+  text-align: center;
+  padding: 7rem 0 3rem 0;
+}
+
+/* banner--red */
+
+.banner__red {
+  width: 100%;
+  background-color: var(--bright-red);
+  text-align: center;
+  background-image: url(/images/bg-simplify-section-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 1rem left;
+  padding: 10rem 0 7rem 0;
+}
+
+.title__banner__red {
+  color: var(--white);
+  font-size: 3.8rem;
+  font-family: var(--font-family);
+  margin-bottom: 2rem;
+}
+
+.button__white {
+  background-color: var(--white);
+  color: var(--bright-red);
+}
+
+/* footer */
