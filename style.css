@@ -57,6 +57,16 @@ input {
   border-radius: 10rem;
 }
 
+/* desktop */
+
+.box__links__header {
+  display: none;
+}
+
+.button__header {
+  display: none;
+}
+
 /* header */
 
 .header {
@@ -88,11 +98,11 @@ input {
 }
 
 .logo__header {
-  width: 120px;
+  width: 130px;
 }
 
 .icon__hamburger {
-  width: 25px;
+  width: 30px;
 }
 
 .illustration__intro {
@@ -387,4 +397,272 @@ input {
   font-size: 1rem;
   font-family: var(--font-family);
   font-weight: 700;
+}
+
+/* mediaqueries */
+
+/* patrones */
+
+@media (min-width: 411px) {
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -27rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 467px) {
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -30rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 500px) {
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -35rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 584px) {
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -37rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 666px) {
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -18rem right -12rem;
+  }
+
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -44rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 719px) {
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -24rem right -12rem;
+  }
+
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -47rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 787px) {
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -27rem right -12rem;
+  }
+
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -47rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 800px) {
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -30rem right -12rem;
+  }
+
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right -55rem;
+  }
+}
+
+/* patrones */
+
+@media (min-width: 900px) {
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -37rem right -12rem;
+  }
+
+  .patron__header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 1rem right -60rem;
+  }
+}
+
+/* 1200px mediaqueries */
+
+@media (min-width: 1200px) {
+  /* header */
+
+  .header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0 0 0;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -10rem right -18rem;
+  }
+
+  .patron__header {
+    background-image: none;
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: var(--padding-container-mobile);
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content__nav__desktop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon__hamburger {
+    display: none;
+  }
+
+  .box__links__header {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  .box__links__header a {
+    color: var(--dark-blue);
+  }
+
+  .button__header {
+    display: flex;
+  }
+
+  /* header--information */
+
+  .content__header {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10rem;
+  }
+
+  .content__header--illustration,
+  .content__header--information {
+    flex: 1;
+  }
+
+  /* content--header--information */
+
+  .content__header--information {
+    padding-top: 6rem;
+  }
+
+  .title__header {
+    font-family: var(--font-family);
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 3rem;
+    color: var(--dark-blue);
+  }
+
+  .copy__header {
+    max-width: 65%;
+    font-family: var(--font-family);
+    text-align: left;
+    color: var(--dark-grayish-blue);
+    font-size: 1.7rem;
+    line-height: 3rem;
+  }
+
+  .copy__margin--header {
+    margin-bottom: 3.5rem;
+  }
+
+  .box__button__header {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0;
+  }
+
+  /* content__header--illustration */
+
+  .illustration__intro {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /* section--main */
 }
