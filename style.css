@@ -504,13 +504,13 @@ input {
     background-image: url(/images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 0 right -47rem;
+    background-position: bottom 0 right -49rem;
   }
 }
 
 /* patrones */
 
-@media (min-width: 800px) {
+@media (min-width: 810px) {
   .header {
     width: 100%;
     background-color: var(--white);
@@ -546,7 +546,7 @@ input {
     background-image: url(/images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 1rem right -60rem;
+    background-position: bottom 0 right -60rem;
   }
 }
 
