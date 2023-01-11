@@ -901,14 +901,6 @@ input {
     line-height: 3.5rem;
   }
 
-  .input__footer {
-    margin: 0;
-  }
-
-  .input__footer__desktop {
-    padding-left: 2.2rem;
-  }
-
   .text__footer {
     text-align: end;
   }
