@@ -308,7 +308,7 @@ input {
 .content__footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 3rem;
   grid-template-areas:
     "input__footer input__footer "
     "links-a__footer links-b__footer"
@@ -366,7 +366,7 @@ input {
   display: grid;
   line-height: 2.4rem;
   place-self: end;
-  padding-right: 4rem;
+  padding-right: 5rem;
 }
 
 .links-b__footer {
