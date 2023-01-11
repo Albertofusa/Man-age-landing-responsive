@@ -669,6 +669,14 @@ input {
     margin: 0 auto;
   }
 
+  /* main--banner */
+
+  .main {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: left -55rem bottom 50rem;
+  }
+
   /* section--main/tricks */
 
   .content__tricks__desktop {
@@ -864,7 +872,7 @@ input {
   .icon__footer {
     display: flex;
     gap: 1rem;
-    margin: 0 ;
+    margin: 0;
   }
 
   .icon__footer a {
@@ -921,5 +929,11 @@ input {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top -15rem right -16rem;
+  }
+
+  .main {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: left -42rem bottom 50rem;
   }
 }
