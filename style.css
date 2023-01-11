@@ -903,6 +903,9 @@ input {
 
   .input__footer {
     margin: 0;
+  }
+
+  .input__footer__desktop {
     padding-left: 2.2rem;
   }
 
