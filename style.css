@@ -319,6 +319,8 @@ input {
 
 .input__footer {
   grid-area: input__footer/input__footer;
+  display: flex;
+  align-items: center;
 }
 
 .links-a__footer {
@@ -835,6 +837,9 @@ input {
 
   .input__footer {
     grid-area: input__footer/input__footer;
+    display: flex;
+    align-items: center;
+    flex: 1;
   }
 
   .links-a__footer {
